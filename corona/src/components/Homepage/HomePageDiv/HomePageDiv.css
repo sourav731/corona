@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#topDiv {
+  background-image: url(./images/worldMap.svg);
+  background-color: aliceblue;
+  padding: 0;
+}
+
+.infoText {
+  text-align: center;
+  font-size: 25px;
+  color: rgba(125, 163, 64, 0.849);
+  padding-top: 4%;
+}
+
+#covidText {
+  color: rgba(233, 56, 91, 0.849);
+  padding-left: 10px;
+}
+
+#textVirus {
+  animation: rotateVirus 5s linear infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+#outerPinkVirus {
+  animation: rotateVirus 2s linear infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+#outerGreenVirus {
+  animation: rotateVirus 2s linear infinite reverse;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+.rotateViruses {
+  animation: rotateVirus 5s linear infinite reverse;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+@keyframes rotateVirus {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.arrowDown {
+  padding: 0;
+  animation: downAnimation 2s ease infinite;
+}
+
+@keyframes downAnimation {
+  from {
+    transform: translateY(4px);
+  }
+  to {
+    transform: translateY(20px);
+  }
+}
