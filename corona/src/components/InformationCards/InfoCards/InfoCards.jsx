@@ -57,7 +57,7 @@ function InformationCards(props) {
             title="Recovered"
             count={globalData.recovered}
             update={new Date().toISOString().slice(0, 10)}
-            info="Number of recoveries form COVID 19"
+            info="Number of recoveries from COVID 19"
             colorA="rgba(19, 94, 24,0.87)"
             backgroundColor="rgba(51, 221, 110,0.8)"
           />
@@ -68,7 +68,7 @@ function InformationCards(props) {
             title="Deaths"
             count={globalData.deaths}
             update={new Date().toISOString().slice(0, 10)}
-            info="Number of deaths form COVID 19"
+            info="Number of deaths from COVID 19"
             colorA="rgba(219, 74, 74,0.87)"
             backgroundColor="rgba(237, 175, 175,0.76)"
           />

@@ -71,8 +71,8 @@ function GlobalBarGraph() {
   return (
     <div
       style={{
-        paddingRight: "25%",
-        paddingLeft: "25%",
+        paddingRight: "20%",
+        paddingLeft: "20%",
         paddingBottom: "4%",
         textAlign: "center",
       }}
@@ -85,7 +85,7 @@ function GlobalBarGraph() {
           title: {
             display: true,
             text: "Global Cases",
-            fontSize: 22,
+            fontSize: 30,
             fontColor: "rgb(137, 134, 134)",
             responsive: true,
             maintainAspectRatio: false,

@@ -52,8 +52,8 @@ function HistoricalLineGraph() {
   return (
     <div
       style={{
-        paddingLeft: "25%",
-        paddingRight: "25%",
+        paddingLeft: "20%",
+        paddingRight: "20%",
         paddingBottom: "4%",
         textAlign: "center",
       }}

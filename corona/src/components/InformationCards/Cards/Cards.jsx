@@ -8,8 +8,8 @@ function InfoCards(props) {
       <CardContent
         className="cardContent"
         style={{
-          height: "32vh",
-          width: "27vh",
+          height: "40vh",
+          width: "35vh",
           textAlign: "center",
           backgroundColor: props.backgroundColor,
           borderBottom: "8px solid",
