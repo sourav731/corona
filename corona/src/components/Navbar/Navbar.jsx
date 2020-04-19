@@ -13,7 +13,7 @@ function NavBar() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
             <Nav.Link href="/global">Global</Nav.Link>
-            <Nav.Link href="/country">Country</Nav.Link>
+            <Nav.Link href="/india">India</Nav.Link>
           </Nav>
           <Nav>
             <Nav.Link href="https://github.com/sourav731" target="_blank">
