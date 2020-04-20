@@ -59,7 +59,7 @@ function HistoricalLineGraph() {
       }}
     >
       <h2 style={{ color: "rgb(137, 134, 134)", paddingBottom: "1%" }}>
-        Global Growth graph COVID-19
+        <b>Global Growth graph COVID-19</b>
       </h2>
       {lineChart}
     </div>
